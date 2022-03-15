@@ -1,0 +1,81 @@
+.teams {
+    margin: 50px 50px 50px 50px;
+    border:solid 2px grey;
+    .teams-title {
+        text-align: center;
+        color: red;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+    .teams-content {
+        display: flex;
+        flex-wrap:wrap;
+        .teams-block {
+            border:solid 1px black;
+            flex-basis: 15%;
+            margin: 10px 10px 10px 10px;
+            border-radius: 10px;
+            .teams-block__item {
+                margin: 5px 5px 5px 5px;
+                text-align: center;
+            }
+        }
+    }
+    .btns {
+        width: 100%;
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+        .btn-add {
+            background:green;
+            height: 30px;
+            margin: 10px 10px 10px 10px;
+            color: white;
+            border:none;
+            flex-basis: 20%;
+            cursor: pointer;
+        }
+        .btn-update {
+            height: 30px;
+            margin: 10px 10px 10px 10px;
+            background-color:orange;
+            color: white;
+            border:none;
+            flex-basis: 50%;
+            cursor: pointer;
+        }
+        .btn-remove {
+            height: 30px;
+            margin: 10px 10px 10px 10px;
+            background-color:red;
+            color: white;
+            border:none;
+            flex-basis: 50%;
+            cursor: pointer;
+        }
+        .input {
+            margin: 10px 10px 10px 10px;
+            height: 30px;
+        }
+    }
+    .inputs {
+        background-color:grey;
+        margin: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
+        display: none;
+        input {
+            height: 30px;
+            width: 100%;
+            margin: 5px 0px 5px 0px;
+        }
+        button {
+            margin: 5px 0px 5px 0px;
+            width: 100%;
+            background-color:green;
+            color:white;
+        }
+    }
+    .inputs.active {
+        display: block;
+    }
+}

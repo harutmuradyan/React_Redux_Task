@@ -1,0 +1,12 @@
+.item-block {
+    display: flex;
+    border:solid 1px black;
+    width: 100px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 10px;
+    .item-block__item {
+        text-align: center;
+        margin: 5px 5px 5px 5px;
+        cursor: pointer;
+    }
+}

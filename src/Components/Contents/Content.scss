@@ -1,0 +1,27 @@
+.content {
+    margin: 50px 50px 100px 50px;
+    border:solid 2px grey;
+    .content-title {
+        margin-top: 20px;
+        text-align: center;
+        color: red;
+        text-transform: uppercase;
+    }
+    .content-block {
+        display: flex;
+        flex-wrap: wrap;
+        .content-names {
+            border:solid 1px black;
+            margin: 10px 10px 10px 10px;
+            border-radius: 10px;
+            display: flex;
+            flex-basis: 15%;
+            .content-block__item {
+                width: 90%;
+                text-align: center;
+                margin: 5px 5px 5px 5px;
+                cursor: pointer;
+            }
+        }
+    }   
+}
